@@ -1,0 +1,41 @@
+.App{
+  display: flex;
+  flex-direction: column;
+align-items: center}
+
+li{
+  height: 50px;
+  width: 300px;
+  border: 1px solid black;
+  background-color: bisque;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+button{
+  cursor: pointer;
+}
+.fade-enter{
+  opacity: 0;
+}
+.fade-enter-active{
+  opacity: 1;
+  transition: opacity 500ms ease-out;
+}
+.fade-leave{  
+opacity: 1;
+}
+.fade-leave-active{  
+opacity: 0;
+transition: opacity 300ms ease-out;
+}
+.fade-appear{
+  opacity:0;
+}
+.fade-appear-active{
+  opacity:1;
+  transition: opacity 1000ms ease-out;
+}
+
